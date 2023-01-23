@@ -1,0 +1,77 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+i {
+    color: aliceblue;
+    cursor: pointer;
+    margin: 1.5rem;
+    font-size: 3rem;
+}
+
+
+.galleryMenu {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    top: 85vh;
+}
+
+.galleryButtons{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-device-width: 768px){
+
+    .galleryMenu {
+        width: 50%;
+    }
+
+    i {
+        color: aliceblue;
+        font-size: 5rem;
+        cursor: pointer;
+        margin: 1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-device-width: 768px){
+
+    .galleryMenu {
+        width: 50%;
+    }
+
+    i {
+        color: aliceblue;
+        font-size: 2rem;
+        cursor: pointer;
+        margin: 1rem;
+    }
+
+
+}
+
+
+@media only screen and (max-device-width: 480px){
+
+    .galleryMenu {
+        width: 50%;
+    }
+
+    i {
+        color: aliceblue;
+        font-size: 5rem;
+        cursor: pointer;
+        margin: 2.5rem;
+    }
+
+}
+
